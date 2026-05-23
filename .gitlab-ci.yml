@@ -1,0 +1,11 @@
+stages:
+  - test
+
+hello-ci:
+  stage: test
+  image: alpine:latest
+  script:
+    - echo "CI/CD is working!"
+    - echo "Runner: $CI_RUNNER_DESCRIPTION"
+    - echo "Project: $CI_PROJECT_PATH"
+    - ls -la
