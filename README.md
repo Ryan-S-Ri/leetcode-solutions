@@ -33,6 +33,3 @@ Each solution includes:
 ## Languages
 
 - Python (primary)
-# runner test
-# ci test 2
-# test3
